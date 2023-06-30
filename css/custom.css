@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'establishRetrosansOTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/establishRetrosansOTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bg-light {
+    background-color: white! important;
+}
+
+
+#logo-image {
+    margin-top: 20px;
+    max-width: 140%;
+    height: auto;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active {
+    color: #FF4917! important;
+}
+
+.bg-primary {
+    background-color: #FF4917 !important;
+}
+
+.text-secondary {
+    color: white !important;
+}
+
+.top-bar {
+    height: min-content;
+    padding: 0 4rem;
+}
+
+@media (max-width: 991.98px) {
+    .nav-bar {
+        padding: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar-light .navbar-nav {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid #EEEEEE;
+    }
+
+    .logo-wrapper {
+        width: 10%;
+    }
+}
+
+.example-margin {
+    margin-top: 70px;
+    margin-bottom: 3px;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.kakao-map {
+    max-width: 100%;
+    height: auto;
+}
